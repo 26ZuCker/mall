@@ -1,12 +1,10 @@
 export default {
-  pages: [
-    'pages/index/index'
-  ],
+  pages: ['modules/home/index'],
   window: {
     backgroundTextStyle: 'light',
     navigationBarBackgroundColor: '#fff',
-    navigationBarTitleText: 'WeChat',
-    navigationBarTextStyle: 'black'
+    navigationBarTitleText: '积分微商城',
+    navigationBarTextStyle: 'black',
   },
-  cloud: true
-}
+  cloud: true,
+};

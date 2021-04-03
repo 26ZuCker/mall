@@ -22,9 +22,5 @@ export default function(props: basicProps) {
       />
     ));
 
-  return (
-    <>
-      <Body />
-    </>
-  );
+  return <>{Body()}</>;
 }
